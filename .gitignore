@@ -19,7 +19,7 @@
 .DS_Store
 *.pem
 
-sanity/node_modules
+sanity-cms/node_modules
 
 # debug
 npm-debug.log*
