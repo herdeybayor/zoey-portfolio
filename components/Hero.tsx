@@ -11,7 +11,6 @@ type Props = {
 };
 
 function Hero({ pageInfo, typewriter }: Props) {
-    console.log(typewriter);
     const [text, count] = useTypewriter({
         words: [
             `Hi, The name's ${pageInfo?.name}`,
@@ -51,7 +50,7 @@ function Hero({ pageInfo, typewriter }: Props) {
                     </Link>
 
                     <Link href="#projects">
-                        <button className="heroButton">Projects</button>
+                        <button className="heroButton">Proof of Work</button>
                     </Link>
                 </div>
             </div>
